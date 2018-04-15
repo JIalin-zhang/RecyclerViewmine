@@ -29,6 +29,7 @@ public class viewpageActivity extends Activity {
         viewPage.setAdapter(viewpagerAdapter);
         viewPage.setPageMargin(80);
         viewPage.setOffscreenPageLimit(3);
+        viewPage.setPageTransformer(false,new viewpageTransformer());
 
 
     }
